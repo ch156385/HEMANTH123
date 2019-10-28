@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;test-output&apos; to &apos;testng-xslt&apos;&#x0D;&#x0A;- Original project: &apos;Orangehrm&apos;&#x0D;&#x0A;- Destination element: &apos;testng-xslt&apos;&#x0D;&#x0A;- Original element: &apos;test-output&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move folder" element1="test-output" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1526675549134" target="testng-xslt" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testcases.Testcase4">
+        <methods>
+          <include name="verfy"/>
+        </methods>
+      </class> <!-- Testcases.Testcase4 -->
+      <class name="Testcases.Testcase3">
+        <methods>
+          <include name="verfy"/>
+        </methods>
+      </class> <!-- Testcases.Testcase3 -->
+      <class name="Testcases.LoginTestcase1">
+        <methods>
+          <include name="verfylogin"/>
+        </methods>
+      </class> <!-- Testcases.LoginTestcase1 -->
+      <class name="Testcases.LogoutTestcase2">
+        <methods>
+          <include name="VerfyLogout"/>
+        </methods>
+      </class> <!-- Testcases.LogoutTestcase2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

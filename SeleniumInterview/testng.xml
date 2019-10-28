@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="Url" value="http://automationpractice.com/"></parameter>
+<parameter name="UserName" value="reddyhemanth224@gmail.com"></parameter>
+<parameter name="pass" value="8147359220"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="ParametrisedByUsingXml"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

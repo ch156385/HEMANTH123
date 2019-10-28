@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Login_framework/Configfolder/Configreader&apos; to &apos;Configreader.properties&apos;" description="Rename resource &apos;Configreader&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Configfolder/Configreader" name="Configreader.properties" stamp="1549043889815" updateReferences="true"/>
+</session>

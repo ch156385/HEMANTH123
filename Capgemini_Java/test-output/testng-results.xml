@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10314" started-at="2019-03-27T16:11:25Z" finished-at="2019-03-27T16:11:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10314" started-at="2019-03-27T16:11:25Z" finished-at="2019-03-27T16:11:35Z">
+      <class name="cg_Selenium.Login_Testcase_1">
+        <test-method status="PASS" signature="creadincal(java.lang.String, java.lang.String)[pri:0, instance:cg_Selenium.Login_Testcase_1@6adede5]" name="creadincal" duration-ms="112" started-at="2019-03-27T21:41:25Z" data-provider="hemanth" finished-at="2019-03-27T21:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reddyhemanth224]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8147359220]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creadincal -->
+        <test-method status="PASS" signature="creadincal(java.lang.String, java.lang.String)[pri:0, instance:cg_Selenium.Login_Testcase_1@6adede5]" name="creadincal" duration-ms="3" started-at="2019-03-27T21:41:25Z" data-provider="hemanth" finished-at="2019-03-27T21:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reddyhemanth081]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8147359220]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creadincal -->
+        <test-method status="PASS" signature="creadincal(java.lang.String, java.lang.String)[pri:0, instance:cg_Selenium.Login_Testcase_1@6adede5]" name="creadincal" duration-ms="4" started-at="2019-03-27T21:41:25Z" data-provider="hemanth" finished-at="2019-03-27T21:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8147359220]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creadincal -->
+        <test-method status="PASS" signature="login()[pri:1, instance:cg_Selenium.Login_Testcase_1@6adede5]" name="login" duration-ms="10133" started-at="2019-03-27T21:41:25Z" finished-at="2019-03-27T21:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- cg_Selenium.Login_Testcase_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

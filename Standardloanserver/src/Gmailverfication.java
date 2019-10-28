@@ -1,0 +1,31 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class Gmailverfication {
+public WebDriver driver;
+@Test(priority =1)
+public void Setup() throws InterruptedException {
+	System.setProperty("webdriver.gecko.driver","c:\\geckodriver.exe");
+	driver = new  FirefoxDriver();
+	driver.get("https://dssdfs-trials646.orangehrmlive.com");
+	/*driver.findElement(By.xpath(".//*[@autocomplete='username']")).sendKeys("reddyhemanth081@gmail.com");
+	Actions a = new Actions(driver);
+	a.sendKeys(Keys.RETURN).perform();;
+	Thread.sleep(5000);
+	driver.findElement(By.xpath(".//input[@autocomplete='current-password']")).sendKeys("h8147359220");
+	a.sendKeys(Keys.RETURN).perform();;*/
+}
+@Test(priority=2)
+public void verfytext() throws InterruptedException{
+	Thread.sleep(5000);
+	driver.findElement(By.xpath(".//span[text()='Jun 6']")).clear();
+	WebElement s =driver.findElement(By.xpath(".//*[@id=':kg']/div[1]/div[2]/table/tbody/tr/td/table/tbody/tr/td/h3"));
+	System.out.println(s.getText());
+	
+}
+}

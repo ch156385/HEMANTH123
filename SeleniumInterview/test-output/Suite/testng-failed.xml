@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="UserName" value="reddyhemanth224@gmail.com"/>
+  <parameter name="pass" value="8147359220"/>
+  <parameter name="Url" value="http://automationpractice.com/"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="ParametrisedByUsingXml">
+        <methods>
+          <include name="setup" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ParametrisedByUsingXml -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

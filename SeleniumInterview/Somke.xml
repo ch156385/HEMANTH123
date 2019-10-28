@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Somke">
+  <test name="Test">
+    <classes>
+      <class name="AllLinks"/>
+      <class name="HowToRunFailedTestcase"/>
+      <class name="CssSelecter"/>
+      <class name="Doubleclick"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

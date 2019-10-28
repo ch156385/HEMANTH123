@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Configreader.properties&apos; to &apos;Hemanth1&apos;&#x0D;&#x0A;- Original project: &apos;Orangehrm&apos;&#x0D;&#x0A;- Destination element: &apos;Hemanth1&apos;&#x0D;&#x0A;- Original element: &apos;Configreader.properties&apos;" description="Copy file" element1="Configfolder/Configreader.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1543863189958" target="/Capgemini/Hemanth1" units="0" version="1.0"/>
+</session>
